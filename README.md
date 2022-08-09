@@ -95,9 +95,7 @@ Every algorithm was applied in different configurations to each dataset, by mean
 <table> <tr><th>Brain Class cross-validation results</th></tr> <tr><th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th> </tr> <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>     <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>
 </table>
 
-|   `Brain Class cross-validation results`    |
+|`Brain Class cross-validation results`|
 |:--:|
-| Classifier| Accuracy| F-measure| Area under ROC|
-|:--:|:--:|:--:|:--|
-| JRip_BC  | 99.9887 %  | 1.000 | 1.000 |
+|<table>    <th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th>          <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>     <tr>  <td>J48-Pruned_BC</td> <td>99.9662 %</td>  <td>1.000</td>    <td>0.997</td>  </tr>                <tr>  <td>Naïve Bayes_BC</td> <td>94.296 %</td>  <td>0.970</td>    <td>0.986</td>  </tr>      <tr>  <td>Random Forest_BC</td> <td>98.6924 %</td>  <td>0.993</td>    <td>1.000</td>  </tr>       </table>|
 
