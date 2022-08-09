@@ -92,8 +92,6 @@ the experimentation, pruned type was considered.
 ## **RESULT OF EXPERIMENTATION**
 Every algorithm was applied in different configurations to each dataset, by means of 10- fold cross validation, and the performances obtained on each fold were recorded. Given below are the tables with recorded values:
 
-<table> <tr><th>Brain Class cross-validation results</th></tr> <tr><th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th> </tr> <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>     <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>
-</table>
 
 |`Brain Class cross-validation results`|
 |:--:|
@@ -113,6 +111,8 @@ Every algorithm was applied in different configurations to each dataset, by mean
 |<table>    <th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th>          <tr>  <td>JRip_SS</td> <td>99.7882 %</td>  <td>0.999</td>    <td>0.978</td>  </tr>     <tr>  <td>J48-Pruned_SS</td> <td>99.838 %</td>  <td>0.999</td>    <td>0.986</td>  </tr>                <tr>  <td>NaïveBayes_SS</td> <td>94.306 %</td>  <td>0.970</td>    <td>0.960</td>  </tr>      <tr>  <td>Random Forest_SS</td> <td>98.6295 %</td>  <td>0.993</td>    <td>0.999</td>  </tr>       </table>|
 
 > In a nut shell, J48 and JRip has the best performance considering all the estimators Accuracy, F-measure and Area under ROC. Random Forest performs excellent in all the datasets except Schizofrenic Class. NaïveBayes, being a probabilistic classifier shows relatively lower accuracy in all datasets.
+
+"/n"
 
 ![graph](https://user-images.githubusercontent.com/77577111/183714372-0bf2cc41-3fda-4143-a82a-64a78e14d1ef.png)
 
