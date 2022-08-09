@@ -116,8 +116,6 @@ Every algorithm was applied in different configurations to each dataset, by mean
 
 ![graph](https://user-images.githubusercontent.com/77577111/183714372-0bf2cc41-3fda-4143-a82a-64a78e14d1ef.png)
 
-<img align=center src="https://user-images.githubusercontent.com/77577111/183714372-0bf2cc41-3fda-4143-a82a-64a78e14d1ef.png">
-
 ***
 * **Conclusion:** Above graph shows the difference in accuracies of all classifiers. One can observe that the highest accuracy is achieved by JRip and J48-pruned in all categories (Brain Class, Schizofrenic Class, Brain Method, Shotgun Surgery) whereas the lowest accuracy is observed by NaïveBayes_BM which is in Brain Method.
 
