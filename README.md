@@ -95,9 +95,9 @@ Every algorithm was applied in different configurations to each dataset, by mean
 <table> <tr><th>Brain Class cross-validation results</th></tr> <tr><th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th> </tr> <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>     <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>
 </table>
 
-|   Brain Class cross-validation results    |
+|   `Brain Class cross-validation results`    |
 |:--:|
-
 | Classifier| Accuracy| F-measure| Area under ROC|
 |:--:|:--:|:--:|:--|
+| JRip_BC  | 99.9887 %  | 1.000 | 1.000 |
 
