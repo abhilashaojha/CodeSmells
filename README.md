@@ -92,7 +92,7 @@ the experimentation, pruned type was considered.
 ## **RESULT OF EXPERIMENTATION**
 Every algorithm was applied in different configurations to each dataset, by means of 10- fold cross validation, and the performances obtained on each fold were recorded. Given below are the tables with recorded values:
 
-<table> <th>`Brain Class cross-validation results`</th> <tr><th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th> </tr> <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>     <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>
+<table> <tr><th>Brain Class cross-validation results</th></tr> <tr><th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th> </tr> <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>     <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>
 </table>
 
  
