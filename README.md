@@ -9,5 +9,8 @@ graph TD;
     C-->D;
     D[Code smell detection and extraction of metrics with iPlasma]-->E(Class Level);
     D[Code smell detection and extraction of metrics with iPlasma]-->F(Method level);
+    E-->G((Brain CLass));
+    E-->H((Schizofrenic Class));
+    F-->
  ```
 
