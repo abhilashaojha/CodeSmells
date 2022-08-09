@@ -41,9 +41,9 @@ graph TD;
     I-->K;
     J-->K;
     K-->L[Machine Learning Algorithm utilising Code Metrics];
-    K-->M(rules.JRip);
-    K-->N(trees.J48);
-    K-->O(Bayes.NaiveBayes);
-    K-->P(trees.RandomForest);
+    L-->M(rules.JRip);
+    L-->N(trees.J48);
+    L-->O(Bayes.NaiveBayes);
+    L-->P(trees.RandomForest);
  ```
 
