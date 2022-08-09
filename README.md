@@ -112,10 +112,11 @@ Every algorithm was applied in different configurations to each dataset, by mean
 
 > In a nut shell, J48 and JRip has the best performance considering all the estimators Accuracy, F-measure and Area under ROC. Random Forest performs excellent in all the datasets except Schizofrenic Class. NaïveBayes, being a probabilistic classifier shows relatively lower accuracy in all datasets.
 
-"/n"
+***
 
 ![graph](https://user-images.githubusercontent.com/77577111/183714372-0bf2cc41-3fda-4143-a82a-64a78e14d1ef.png)
 
-**Conclusion:** Above graph shows the difference in accuracies of all classifiers. One can observe that the highest accuracy is achieved by JRip and J48-pruned in all categories (Brain Class, Schizofrenic Class, Brain Method, Shotgun Surgery) whereas the lowest accuracy is observed by NaïveBayes_BM which is in Brain Method.
+***
+* **Conclusion:** Above graph shows the difference in accuracies of all classifiers. One can observe that the highest accuracy is achieved by JRip and J48-pruned in all categories (Brain Class, Schizofrenic Class, Brain Method, Shotgun Surgery) whereas the lowest accuracy is observed by NaïveBayes_BM which is in Brain Method.
 
 
