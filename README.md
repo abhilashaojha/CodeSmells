@@ -3,8 +3,8 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
+    A[Java System Collections]-->B[11 heterogenous java systems from Qualitas Corpus];
+    A[Java System Collections]-->C[3 heterogenous java software systems from Github Repository];
     B-->D;
     C-->D;
 ```
