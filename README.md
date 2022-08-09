@@ -21,7 +21,7 @@ Here,
 
 Machine learning methods are implemented using the [Weka](https://sourceforge.net/projects/weka/) software, which is also used to verify the algorithm's accuracy.
 
-## Workflow of the Paper:
+## *Workflow of the Paper:*
 
 ```mermaid
 graph TD;
@@ -45,7 +45,7 @@ graph TD;
     L-->O(Bayes.NaiveBayes);
     L-->P(trees.RandomForest);
  ```
-## Selected Java Systems: 
+ ## *Selected Java Systems:*
 <table> <th>System </th> <th>Source</th> <th>LOC (Lines of Code)</th> <th>NOP (Number of Parameter)</th> <th>NOC (Number of Children)</th> <th>NOM (Number of Methods)</th> <tr><td>Freemind-0.9.0 </td> <td>Qualitas Corpus</td>  <td>65,687</td>  <td>43</td> <td>849</td> <td>5788</td> </tr>     <tr><td>argouml-0.34</td> <td>Qualitas Corpus</td>  <td>284,934</td>  <td>125</td> <td>2361</td> <td>18,015</td> </tr>       <tr><td>Sunflow-0.07.2</td> <td>Qualitas Corpus</td>  <td>24,319</td>  <td>21</td> <td>191</td> <td>1447</td> </tr>         <tr><td>Retrofit</td> <td>Github Repository</td>  <td>6006</td>  <td>23</td> <td>151</td> <td>683</td> </tr>            <tr><td>Apache Ant-1.8.4</td> <td>Qualitas Corpus</td>  <td>119486</td>  <td>80</td> <td>1172</td> <td>13223</td> </tr>         <tr><td>ArtOfIllusion-2.8.1</td> <td>Qualitas Corpus</td>  <td>136,533</td>  <td>22</td> <td>799</td> <td> 688</td> </tr>        <tr><td>Mockito</td> <td>Github Repository</td>  <td>25758</td>  <td>103</td> <td>648</td> <td>3857</td> </tr>                     <tr><td>Fitjava-1.1</td> <td>Qualitas Corpus</td>  <td>2453</td>  <td>2</td> <td>60</td> <td>254</td> </tr>                    <tr><td>c-jdbc-2.0.2</td> <td>Qualitas Corpus</td>  <td>72408</td>  <td>101</td> <td>543</td> <td>5193</td> <tr>              <tr><td>Cobertura-1.9.4.1</td> <td>Qualitas Corpus</td>  <td>58,364</td>  <td>19</td> <td>107</td> <td>3309</td> </tr>               <tr><td>Castor-1.3.1</td> <td>Qualitas Corpus</td>  <td>213,479</td>  <td>149</td> <td>1542</td> <td>11,967</td> </tr>                <tr><td>ActionBarSherlock</td> <td>Github Repository</td>  <td>20108</td>  <td>24</td> <td>158</td> <td>2584</td> </tr>               <tr><td>Colt-1.2.0</td> <td>Qualitas Corpus</td>  <td>41872</td>  <td>25</td> <td>297</td> <td>3960</td> </tr>                <tr><td>Gnattproject-2.0.9</td> <td>Qualitas Corpus</td>  <td>58,718</td>  <td>54</td> <td>959</td> <td>5518</td> </tr>  </table>
 
 ## **1. Collection of Java Systems:**
@@ -98,4 +98,24 @@ Every algorithm was applied in different configurations to each dataset, by mean
 |`Brain Class cross-validation results`|
 |:--:|
 |<table>    <th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th>          <tr>  <td>JRip_BC</td> <td>99.9887 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>     <tr>  <td>J48-Pruned_BC</td> <td>99.9662 %</td>  <td>1.000</td>    <td>0.997</td>  </tr>                <tr>  <td>Naïve Bayes_BC</td> <td>94.296 %</td>  <td>0.970</td>    <td>0.986</td>  </tr>      <tr>  <td>Random Forest_BC</td> <td>98.6924 %</td>  <td>0.993</td>    <td>1.000</td>  </tr>       </table>|
+
+
+|`Schizofrenic Class cross-validation results`|
+|:--:|
+|<table>    <th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th>          <tr>  <td>JRip_SC</td> <td>100 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>     <tr>  <td>J48-Pruned_SC</td> <td>100 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>                <tr>  <td>NaïveBayes_SC</td> <td>88.9983 %</td>  <td>0.939</td>    <td>0.860</td>  </tr>      <tr>  <td>Random Forest_SC</td> <td>92.7361 %</td>  <td>0.962</td>    <td>1.000</td>  </tr>       </table>|
+
+|`Brain method cross-validation results`|
+|:--:|
+|<table>    <th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th>          <tr>  <td>JRip_BM</td> <td>99.9546 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>     <tr>  <td>J48-Pruned_BM</td> <td>100 %</td>  <td>1.000</td>    <td>1.000</td>  </tr>                <tr>  <td>NaïveBayes_BM</td> <td>85.8441 %</td>  <td>0.920</td>    <td>0.967</td>  </tr>      <tr>  <td>Random Forest_BM</td> <td>99.5456 %</td>  <td>0.998</td>    <td>1.000</td>  </tr>       </table>|
+
+|`Shotgun surgery cross-validation results`|
+|:--:|
+|<table>    <th>Classifier</th>   <th>Accuracy</th>   <th>F-measure</th>   <th>Area under ROC</th>          <tr>  <td>JRip_SS</td> <td>99.7882 %</td>  <td>0.999</td>    <td>0.978</td>  </tr>     <tr>  <td>J48-Pruned_SS</td> <td>99.838 %</td>  <td>0.999</td>    <td>0.986</td>  </tr>                <tr>  <td>NaïveBayes_SS</td> <td>94.306 %</td>  <td>0.970</td>    <td>0.960</td>  </tr>      <tr>  <td>Random Forest_SS</td> <td>98.6295 %</td>  <td>0.993</td>    <td>0.999</td>  </tr>       </table>|
+
+> In a nut shell, J48 and JRip has the best performance considering all the estimators Accuracy, F-measure and Area under ROC. Random Forest performs excellent in all the datasets except Schizofrenic Class. NaïveBayes, being a probabilistic classifier shows relatively lower accuracy in all datasets.
+
+![graph](https://user-images.githubusercontent.com/77577111/183714372-0bf2cc41-3fda-4143-a82a-64a78e14d1ef.png)
+
+**Conclusion:** Above graph shows the difference in accuracies of all classifiers. One can observe that the highest accuracy is achieved by JRip and J48-pruned in all categories (Brain Class, Schizofrenic Class, Brain Method, Shotgun Surgery) whereas the lowest accuracy is observed by NaïveBayes_BM which is in Brain Method.
+
 
